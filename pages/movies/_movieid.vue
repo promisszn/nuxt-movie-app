@@ -15,7 +15,7 @@
           <span>Tagline:</span>"{{ movie.tagline }}"
         </p>
         <p class="movie-fact">
-          <span>Released:</span>
+          <span>Release Date:</span>
           {{
             new Date(movie.release_date).toLocaleString("en-us", {
               month: "long",
